@@ -27,6 +27,13 @@
     [:body
      "<!--[if lt IE 7]>\n            <p class=\"chromeframe\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> or <a href=\"http://www.google.com/chromeframe/?redirect=true\">activate Google Chrome Frame</a> to improve your experience.</p>\n        <![endif]-->"
      "<!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->"
+     [:a
+      {:href "https://github.com/seabre/htmltohiccup"}
+      [:img
+       {:alt "Fork me on GitHub",
+        :src
+        "https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png",
+        :style "position: absolute; top: 0; left: 0; border: 0;"}]]
      [:div.container
       [:div.row [:div.span12 [:h2 "HTML To Hiccup"]]]
       [:div.row
