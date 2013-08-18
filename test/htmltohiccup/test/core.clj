@@ -1,7 +1,7 @@
 (ns htmltohiccup.test.handler
   (:use clojure.test
         ring.mock.request  
-        html2hiccup.handler))
+        htmltohiccup.core))
 
 (deftest test-app
   (testing "main route"
