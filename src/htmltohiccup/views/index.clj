@@ -35,8 +35,8 @@
         [:h3 "Hiccup"]
         [:div#out_hiccup.span6 {}]]]
       [:hr]
-      [:footer [:p "© Sean Brewer 2013"]]]
-     " "
+      [:footer
+         [:p "Clojure goodness provided by " [:a {:href "http://about.me/seabre"} "seabre"]]]]
      "<!-- /container -->"
      [:script
       {:src
