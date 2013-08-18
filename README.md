@@ -1,6 +1,6 @@
 # htmltohiccup
 
-Convert 
+Web application Convert HTML to Hiccup, inspired by http://html2haml.heroku.com/ 
 
 ## Prerequisites
 
